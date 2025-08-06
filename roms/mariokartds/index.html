@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mario Kart DS</title>
+</head>
+<body>
+    <div style="width:640px;height:480px;max-width:100%">
+        <div id="game"></div>
+    </div>
+
+    <script type="text/javascript">
+        EJS_player = '#game';
+        EJS_core = 'nds'; // DS emulator
+        EJS_biosUrl = ''; // Leave empty unless needed
+        EJS_gameUrl = 'roms/mariokartds/mario-kart-ds.zip'; // ← path to your game ROM ZIP
+        EJS_pathtodata = 'data/'; // ← path to EmulatorJS core files (must exist!)
+    </script>
+    <script src="data/loader.js"></script>
+</body>
+</html>
